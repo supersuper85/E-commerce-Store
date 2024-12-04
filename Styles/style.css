@@ -1,0 +1,190 @@
+html{
+    height: 100%;
+}
+body{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.TitleDiv{
+    width: 800px;
+    margin:0 auto;
+    
+}
+.TitleDiv hr{
+    margin-bottom: 13px;
+    
+}
+.TitleDiv .nav{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.TitleDiv .nav h3{
+    flex:1 1;
+    margin:0;
+    font-size: 1.5rem;
+}
+.TitleDiv .nav button{
+    margin-left:10px;
+    height: 30px;
+    font-size: 1rem;
+    outline: 0;
+    border: 1px solid darkslategray;
+    border-radius: 2px;
+}
+.TitleDiv .nav a{
+    margin-left:10px;
+    
+    
+}
+.TitleDiv .nav a input{
+    height: 30px;
+    font-size: 1rem;
+    
+}
+
+
+
+
+
+
+.ListDiv{
+    flex:1 1;
+    width: 800px;
+    margin:0 auto;
+}
+.ListDiv .col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ListDiv .InfoSquare{
+    border: 1px solid black;
+    height: 140px;
+    width: 170px;
+    margin:17px 0px;
+}
+.ListDiv .InfoSquare .DetailsSquare{
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ListDiv .InfoSquare .DetailsSquare p{
+    margin-bottom:2px ;
+    font-size: 0.8rem;
+
+}
+.ListDiv .InfoSquare input[type="checkbox"]{
+    position: absolute;
+    top:23px;
+    left:25px;
+
+}
+
+
+
+
+
+
+
+
+
+.FooterDiv {
+    
+    width: 800px;
+    margin:0 auto;
+    padding:5px 0;
+}
+.FooterDiv hr{
+    margin-top: 13px;
+    
+}
+.FooterDiv h3{
+
+    text-align: center;
+    margin:0;
+    
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+
+
+
+
+
+.FormDiv{
+    flex:1 1;
+    width: 800px;
+    margin:0 auto;
+}
+
+.FormDiv .InputField{
+    display:flex;
+    width: 300px;
+    margin:4px 0;
+}
+.FormDiv .InputField p{
+    flex: 0 1 100px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin:0;
+}
+.FormDiv .InputField input{
+    flex: 1 1;
+    font-size: 0.8rem;
+    height: 30px;
+}
+
+.FormDiv .SwitcherField{
+    display:flex;
+    width: 300px;
+    margin:4px 0;
+}
+.FormDiv .SwitcherField p{
+    flex: 0 1 120px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin:0;
+}
+.FormDiv .SwitcherField select{
+    flex: 1 1;
+    font-size: 0.8rem;
+    height: 30px;
+}
+
+
+
+
+/* Clase utile */
+
+.ProductDescription{
+    margin-top:15px;
+    font-size: 0.9rem;
+    width: 300px;
+}
+
+.ErrorDesign{
+    width: 800px;
+    margin:0 auto;
+    background-color: #FF7F7F;
+    border: 1px solid #A04F4F;
+    padding:10px;
+    margin-bottom: 5px;
+}
+.ErrorDesign h4{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    color:white;
+}
